@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- <link rel="stylesheet" href="/StyleCSS/style_Contact.css"> -->
+</head>
+<body>
+    <style>
+        *{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family: "ariblk";
+    src: url("fonts/ariblk.ttf");
+}
+@font-face{
+    font-family: "AKBALTHOM";
+    src: url("fonts/AKBALTHOM\ TNRB.TTF");
+}
+header{
+    height: 46px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 47px;
+    background-color:#7b7780; 
+    margin-bottom: 0px;
+    position: fixed;       
+}
+body{
+    background-color: #d8dfe6;
+    
+}
+footer{
+    background-color:#b9cfc8;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+}
+.text-nameproduct-copyrith{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.text-nameproduct-copyrith{
+    font-size: 40px;
+    color: darkcyan;
+    padding-top: 20px;
+}
+.text-copyrith{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgba(137, 136, 138, 0.814);
+    padding: 17px;
+}
+.logo-copyrith{
+    width: 85px;
+}
+.name-Shop{
+    width: 200px;
+    padding: 15px 30px;
+}
+.logo{
+    width: 55px;
+    padding-left: 30px;
+}
+.logo-nameshop{
+    display: flex;
+}
+
+.HAC{
+    justify-content: right;
+    display: flex;
+    top: 0%;
+    position: absolute;
+    left: 57%;
+       
+}
+.text{
+    padding:25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    height: 16px;
+    border: 1px;
+    border-style: none;
+    border-color: #134067;    
+}
+.text:hover{ 
+    background-color: #98949c; 
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
+.header-contact{
+    text-align: center;
+    background-image: url('https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/d8/images/canvas/2022/01/14/afb6d878-babc-4262-a6b3-2deca12d053b_6fab2045.jpg');
+    background-size: cover ;
+    width: 100%;
+    height: 400px;
+    margin-top: -47px;
+}
+.text-contact{
+padding-top: 200px;
+color: #13d286;
+font-size: 70px;
+}
+.contact-userinput{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 40px;
+}
+.Email{
+    width: 550px;
+    text-align: center;
+    font-size: 30px;
+    background-image: url('https://communityimpact.com/uploads/images/2021/08/02/151322.jpeg');
+    background-size: cover;
+    color:#5bf2fa;
+    padding-top: 5rem;
+    
+    
+}
+.userinput{
+
+    width: 50%;
+    justify-content: center;
+    padding: auto;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    background-color: #dadbdb;
+
+}
+.Name-Email-Phone-Address{
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    
+}
+.textinput{
+    font-size: 15px;
+}
+.Name-Email{
+    padding: 10px;
+}
+.Phone-Address{
+    padding: 10px;
+}
+.buttom-send{
+    margin-left: 20%;
+    margin-top: 10px;
+    border-radius: 40px;
+    width: 30px;
+    padding: 10px 50px 10px 40px;
+    font-size: 20px;
+    background-color: cadetblue; 
+}
+    </style>
+        <header>
+            <div class="img_HAC">
+                <div class="logo-nameshop">
+                    <img src="image-grile/logo-product.png" class="logo">
+                    <h2 class="name-Shop">RNVP SHOP</h2>
+                </div>
+                    <div class="HAC">
+                        <a href="Womenpage.html" class="text">Women</a>
+                        <a href="Menpage.html" class="text">Men</a>
+                        <a href="Children.html" class="text">Children</a>
+                        <a href="index.html" class="text">Home</a>
+                        <a href="About.html"  class="text">About Us</a>
+                        <a href="contact.html" class="text">Contact</a>
+                    </div>
+            </div>  
+        </header>
+        <div class="header-contact">
+            <h1 class="text-contact">Contact</h1>
+        </div>
+        <div class="contact-userinput">
+            <div class="Email">
+                <h2>contact</h2>
+                <h4>Cambodai</h4>
+                <h4>dongdarong0713@gmail.com</h4>
+                <h4>093348087</h4>
+        </div>
+        <div class="userinput ">
+             <div class="Name-Email-Phone-Address">
+            <div class="Name-Email">
+                <h5 class="textinput">Name</h5> 
+                <input type="text">
+                <h5 class="textinput">Email</h5>
+                <input type="email">
+            </div>
+            <div class="Phone-Address">    
+                <h5 class="textinput">Phone</h5>
+                <input type="number"> 
+                <h5 class="textinput">Address</h5>
+                <input type="text">
+            </div>
+        </div>
+            <div class="Subject">
+                <h5 class="textinput">Subject</h5>
+                <textarea name="" cols="50" rows="3" placeholder="Type the subject"></textarea>
+                </div>
+                <div class="Message">
+                <h5 class="textinput">Message</h5>
+                <textarea name=" " cols="50" rows="3" placeholder="Type your message here..."></textarea>
+                </div>
+                <div class="buttom-send" >
+                <a href="https://dongdarong0713@gmail.com" >Send</a>
+                </div>
+            </div> 
+    </div>
+    
+        <footer>
+            <div class="text-nameproduct-copyrith">
+                <img src="image-grile/logo-product.png" class="logo-copyrith">
+                <h1 class="text-nameproduct-copyrith">RNPV Shop  <span class="text-copyrith">© All Rights Reserved.</span></h1>    
+            </div>
+        </footer>
+    
+</body>
+</html>
